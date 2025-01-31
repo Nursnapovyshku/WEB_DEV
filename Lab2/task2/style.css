@@ -1,201 +1,219 @@
-body{
-    background-color:black;
-    font-family: sans-serif;
-}
-#instagram-logo{
-    width: 175px;
-    height: 51px;
-    margin-top: 45px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-}
-#pht{
-    position: absolute;
-    width: 380px;
-    margin-left: 400px;
-    margin-top: 60px;
-}
-#box-1{
-    position: absolute;
-    border: 1px solid #474545ab;
-    width: 350px;
-    height: 410px;
-    border-radius: 1px;
-    box-sizing: border-box;
-    margin-left: 810px;
-    margin-top: 70px;
-    text-align: center;
-}
-#input-box{
-    margin-top: 40px;
-}
-input{
-    width: 250px;
-    height: 35px;
-    font-size: 12.5px;
-    text-align: center;
-    background-color: #121212;
-    color: white;
-    border: 1px solid #474545ab;
-    border-radius: 5px;
-
-}
-
-#inp-1{
-    text-align: left;
-}
-#inp-1::placeholder{
-    padding-left: 2px;
-}
-#inp-2{
-    text-align: justify;
-    margin-top: 8px;
-}
-#inp-2::placeholder{
-    padding-left: 2px;
-}
-#btn-1{
-    margin-top: 14px;
-    width: 260px;   
-    background-color: #007bfc;
-    color: white;
-    height: 33px;
-    border: 0;
-    border-radius: 10px;
-}
-.divider {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: gray;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 30px;
-  }
-  
-  .divider::before,
-  .divider::after {
-    content: "";
-    flex: 1;
-    border-bottom: 0.1px solid gray; 
-    margin: 0 40px; 
-}
-#icon-1{
-    width: 24px;
-}
-#lnk-2{
-    text-decoration: none;
-    color: #007bfc;
-    margin-left: 5px;
-    font-size: 14px;
-    font-weight: 600;
-}  
-#lnk-2:hover{
-    color: white;
-}
-#divik{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 10px;
-}
-
-#lnk-3{
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-
-}
-#divik2{
-    margin-top: 10px;
-}
-#box-2{
-    position:absolute;
-    margin-left: 809.8px;
-    border: 1px solid #474545ab;
-    width: 350px;
-    color: white;
-    font-size: 14px;
-    margin-top: 490px;
-    width: 348px;
-    height: 63px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#lnk-4{
-    color: #007bfc;
-    text-decoration: none;
-    font-weight: 600;
-    margin-left: 5px;
-}
-#spanik{
-    color:white;
-    font-size: 14px;
-}
-#divik3{
-    position: absolute;
-    width: 348px;
-    margin-left: 810px;
-    margin-top: 570px;
-    text-align: center;
-}
-.ics{
-    width: 136px;
-    height: 40px;
-    padding: 3px;
-}
-#ios{
-    margin-top: 10px;
-}
-footer {
-    background-color: black; 
-    color: gray;
-    font-size: 13px;
-    text-align: center;
-    padding: 20px 0;
-    position: absolute;
-    margin-top: 650px;
-    margin-left: 200px;
-    
-  }
-  
-  #navik ul {
-    display: flex;
-    flex-wrap: wrap; /* Чтобы элементы не сжимались */
-    justify-content: center; /* Центрируем ссылки */
-    gap: 30px; /* Промежуток между ссылками */
-    list-style: none;
+* {
     padding: 0;
     margin: 0;
-  }
-  
-  #navik ul li {
-    display: inline;
-  }
-  
-  #navik ul li a {
-    color: gray;
+    outline: 0;
     text-decoration: none;
-  }
-  
-  #navik ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer-meta {
-    margin-top: 10px;
-  }
-  
-  .footer-meta select {
-    background: transparent;
-    border: none;
-    color: gray;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #262626;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 32px auto 0;
+    padding: 20px;
+    max-width: 935px;
+    flex-grow: 1;
+}
+
+.phones-container {
+    flex-basis: 380.32px;
+    align-self: center;
+    position: relative;
+}
+
+.phoneIMG {
+    width: 100%;
+    height: auto;
+}
+
+.form-container {
+    max-width: 350px;
+    width: 100%;
+}
+
+.form-div {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0 8px;
+}
+
+.instaLogo {
+    width: 174px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.input {
+    width: 268px;
+    height: 36px;
+    padding: 9px 8px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 6px;
     font-size: 12px;
+}
+
+.login-btn {
+    width: 268px;
+    padding: 7px 16px;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
     cursor: pointer;
-  }
-  
-  .footer-meta span {
-    margin-left: 10px;
-  }
-  
+    margin: 8px 0;
+}
+
+.login-btn:disabled {
+    opacity: 0.7;
+}
+
+.or-divider {
+    width: 268px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 18px;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.or-divider span {
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 18px;
+}
+
+.fb-login {
+    color: #0095f6;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.sign-up {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.sign-up p {
+    font-size: 14px;
+    margin: 15px;
+}
+
+.sign-up-link {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.get-app {
+    text-align: center;
+}
+
+.get-app p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.store-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.store {
+    height: 40px;
+}
+
+.store img {
+    height: 100%;
+}
+
+footer {
+    padding: 0 16px;
+    margin: 24px 0;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+footer a {
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.footer-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-meta select {
+    border: none;
+    background: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.footer-meta span {
+    color: #8e8e8e;
+    font-size: 12px;
+}
