@@ -32,6 +32,7 @@ main {
     flex-basis: 380.32px;
     align-self: center;
     position: relative;
+    margin-bottom: 10%;
 }
 
 .phoneIMG {
