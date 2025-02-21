@@ -1,0 +1,112 @@
+[
+    {
+        "name" : "Смартфон Apple iPhone 16 Pro Max 256Gb черный",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hcf/h69/87295489343518.png?format=gallery-medium",
+        "description" : [
+            "Флагманский IPhone 16 Pro Max вобрал в себя лучшие черты современного гаджета."
+        ],
+        "id" : 1,
+        "rating" : 5.0,
+        "price" : 649000,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-chernyi-123787551/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 13 128Gb черный",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=gallery-medium",
+        "description" : [
+            "Apple iPhone 13 получил дисплей 6.1 дюйма Super Retina XDR, который отличается невероятно высокой плотностью пикселей."
+        ],
+        "id" : 2,
+        "rating" : 5.0,
+        "price" : 278897,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-13-128gb-chernyi-102298404/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 16 Pro Max 256Gb золотистый",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h41/h98/87295491702814.png?format=gallery-medium",
+        "description" : [
+            "Флагманский IPhone 16 Pro Max вобрал в себя лучшие черты современного гаджета."
+        ],
+        "id" : 3,
+        "rating" : 5.0,
+        "price" : 684928,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-zolotistyi-123890547/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 13 128Gb синий",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hba/h2e/64206204993566.jpg?format=gallery-medium",
+        "description" : [
+            "Apple iPhone 13 получил дисплей 6.1 дюйма Super Retina XDR."
+        ],
+        "id" : 4,
+        "rating" : 5.0,
+        "price" : 329874,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-13-128gb-sinii-102298364/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 13 128Gb зеленый",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hd1/h2f/64255724159006.jpg?format=gallery-medium",
+        "description" : [
+            "Apple iPhone 13 получил дисплей 6.1 дюйма Super Retina XDR."
+        ],
+        "id" : 5,
+        "rating" : 4.8,
+        "price" : 723490,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-13-128gb-zelenyi-104078887/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 16 Pro 256Gb черный",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hbc/h31/87295483445278.png?format=gallery-medium",
+        "description" : [
+            "iPhone 16 Pro – это уникальный смартфон от Apple."
+        ],
+        "id" : 6,
+        "rating" : 4.8,
+        "price" : 624590,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-16-pro-256gb-chernyi-123887732/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 16 128Gb черный",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hf3/h65/87295470731294.png?format=gallery-medium",
+        "description" : [
+            "Phone 16 – новый дизайн, яркие цвета, мощный процессор "
+        ],
+        "id" : 7,
+        "rating" : 5,
+        "price" : 418000,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-16-128gb-chernyi-123713453/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 16 Pro Max 256Gb серебристый",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h74/ha7/87295492882462.png?format=gallery-medium",
+        "description" : [
+            "Флагманский IPhone 16 Pro Max вобрал в себя лучшие черты современного гаджета."
+        ],
+        "id" : 8,
+        "rating" : 5,
+        "price" : 652879,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-serebristyi-123890752/?c=750000000"
+    },
+    {
+        "name" : "Смартфон Apple iPhone 15 256Gb черный",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h16/hb1/86303746097182.jpg?format=gallery-medium",
+        "description" : [
+            "Apple iPhone 15 - смартфон, сочетающий в себе передовую оптику."
+        ],
+        "id" : 9,
+        "rating" : 5,
+        "price" : 431987,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/?c=750000000"
+    }, 
+    {
+        "name" : "Смартфон Apple iPhone 11 64Gb Slim Box черный",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h3c/h70/63944536522782.jpg?format=gallery-medium",
+        "description" : [
+            "Функциональный и стильный смартфон Apple iPhone 11."
+        ],
+        "id" : 10,
+        "rating" : 5,
+        "price" : 224000,
+        "link" : "https://kaspi.kz/shop/p/apple-iphone-11-64gb-slim-box-chernyi-100692387/?c=750000000"
+    }
+]
