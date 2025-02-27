@@ -1,0 +1,136 @@
+.product-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    overflow: hidden; 
+    height: 600px;
+    align-items: stretch;
+    text-align: left;
+    border: 1px solid #d5d5d5;
+    margin: 32px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px 0;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.product-card-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 16px;
+    position: relative;
+}
+
+.product-card-container h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    min-height: 48px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.product-card-info p {
+    margin-bottom: 8px;
+    min-height: 20px;
+}
+
+.price-containter {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 16px 0;
+}
+
+.price-containter hr {
+    margin: 12px 0;
+}
+
+.price-containter h4 {
+    font-size: 16px;
+    color: #404040;
+    margin-bottom: 4px;
+}
+
+.price-containter h5 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.buttons-container {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.action-buttons, .share-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.action-buttons button,
+.share-buttons a {
+    flex: 1;
+    min-width: 120px;
+}
+
+.like-button, .remove-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.like-button {
+    background-color: #00cc30;
+}
+
+.remove-button {
+    background-color: #aba0a0;
+}
+
+.like-button i,
+.remove-button i {
+    font-size: 18px;
+}
+
+.telegram-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.telegram-button i {
+    font-size: 20px;
+}
+

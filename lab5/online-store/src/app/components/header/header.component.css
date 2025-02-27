@@ -1,0 +1,17 @@
+:host {
+    height: 80px;
+}
+
+.header-container {
+    background-color: #f1ffa5;
+    height: 60px;
+    padding: 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f8f2f2;
+}
+.header-container h2{
+    font-size: 35px;
+    color: rgb(152, 82, 20);
+}

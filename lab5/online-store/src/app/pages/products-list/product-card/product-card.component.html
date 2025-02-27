@@ -1,0 +1,43 @@
+<div class="product-card-container">
+    <div class="image-container">
+        <img [src]="product.imageUrl" height="150" width="150">
+    </div>
+    
+    <div class="product-card-info">
+        <h3>{{ product.name }}</h3>
+        @for (item of product.description; track $index) {
+            <p> {{item}} </p>
+        }
+        <p><strong>Rating: </strong>{{ product.rating | rating }} ({{product.rating}})</p>
+
+        <div class="price-containter">
+            <hr>
+            <h4>Price</h4>
+            <h5>{{ product.price | currency: '₸' : 'symbol':'1.2-2' }}</h5>
+        </div>
+
+        <div class="buttons-container">
+            <div class="action-buttons">
+                <button class="like-button" (click)="onLike()">
+                    <i class='bx bxs-like'></i>
+                    {{ product.likes }}
+                </button>
+
+                <button class="remove-button" (click)="onRemove()">
+                    <i class='bx bxs-trash'></i>
+                </button>
+            </div>
+
+            <div class="share-buttons">
+                <a [href]="product.link" target="_blank">
+                    <app-primary-button label="" class="kaspi-link"/>
+                </a>
+        
+                <a [href]="'https://t.me/share/url?url=' + encodeProductURI(product.link) + '&text=' + encodeProductURI('Check out this amazing product!')" 
+                    target="_blank" class="telegram-button">
+                    <i class='bx bxl-telegram'></i> Share
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

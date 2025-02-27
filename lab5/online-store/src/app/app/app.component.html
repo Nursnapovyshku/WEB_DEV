@@ -1,0 +1,22 @@
+<app-header />
+
+<div class="welcome-message">
+    <h2>Welcome to our Apple Store</h2>
+    <p>Please select a category to view products</p>
+</div>
+
+<div class="categories-container">
+    @for (category of categories(); track category.id) {
+        <button
+            class="category-btn 
+                {{ category.id }}-btn 
+                {{ selectedCategory() === category.id ? 'active' : '' }}"
+            (click)="setCategory(category.id)">
+            {{ category.name }}
+        </button>
+    }
+</div>
+
+<app-products-list 
+    [selectedCategory]="selectedCategory()"
+/>

@@ -1,0 +1,15 @@
+<div class="products-list-container">
+    @if (filteredProducts().length > 0) {
+        @for (item of filteredProducts(); track item.id) {
+            <app-product-card
+                [product]="item"
+                (likeProduct)="handleLike($event)"
+                (removeProduct)="handleRemove($event)"
+            />
+        }
+    } @else {
+        <div class="no-products">
+            <p>No products found in this category</p>
+        </div>
+    }
+</div>

@@ -1,0 +1,262 @@
+[
+    {
+        "name": "MacBook Pro 14 M3 Pro",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/p32/p89/17666424.jpg?format=preview-large",
+        "description": [
+            "Мощный ноутбук с процессором M3 Pro и экраном Liquid Retina XDR"
+        ],
+        "id": 1,
+        "rating": 5.0,
+        "price": 1722725,
+        "link": "https://kaspi.kz/shop/p/apple-macbook-pro-14-2024-16-gb-ssd-512-gb-macos-mw2u3-132088460/?c=750000000",
+        "category": "laptops",
+        "likes": 0
+    },
+    {
+        "name": "MacBook Air 13 M2",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/hf4/h52/64509322919966.jpg?format=preview-large",
+        "description": [
+            "Ультратонкий ноутбук с процессором M2 и активным охлаждением"
+        ],
+        "id": 2,
+        "rating": 4.8,
+        "price": 488552,
+        "link": "https://kaspi.kz/shop/p/apple-macbook-air-13-2022-13-6-8-gb-ssd-256-gb-macos-mlxw3-105933794/?c=750000000",
+        "category": "laptops",
+        "likes": 0
+    },
+    {
+        "name": "MacBook Pro 16 M3",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h87/hfe/84577424310302.jpg?format=preview-large",
+        "description": [
+            "Профессиональный ноутбук с M3 Max для сложных задач"
+        ],
+        "id": 3,
+        "rating": 4.9,
+        "price": 1865445,
+        "link": "https://kaspi.kz/shop/p/apple-macbook-pro-16-2023-16-2-36-gb-ssd-1024-gb-macos-mrw73-114862792/?c=750000000",
+        "category": "laptops",
+        "likes": 0
+    },
+    {
+        "name": "MacBook Air 15 M2",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h65/h66/81548093718558.jpg?format=preview-large",
+        "description": [
+            "15-дюймовый MacBook Air с процессором M2"
+        ],
+        "id": 4,
+        "rating": 4.7,
+        "price": 686319,
+        "link": "https://kaspi.kz/shop/p/apple-macbook-air-15-2023-15-3-8-gb-ssd-256-gb-macos-mqku3-111217928/?c=750000000",
+        "category": "laptops",
+        "likes": 0
+    },
+    {
+        "name": "MacBook Pro 13 M3",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/p90/p2a/5393287.png?format=preview-large",
+        "description": [
+            "Компактный профессиональный ноутбук с M3"
+        ],
+        "id": 5,
+        "rating": 4.6,
+        "price": 576492,
+        "link": "https://kaspi.kz/shop/p/apple-macbook-air-13-2024-13-6-8-gb-ssd-256-gb-macos-mrxt3-118723338/?c=750000000",
+        "category": "laptops",
+        "likes": 0
+    },
+    {
+        "name": "iPad Pro 12.9 M2",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h3c/h53/64896210403358.jpg?format=preview-large",
+        "description": [
+            "Планшет с экраном Liquid Retina XDR и M2"
+        ],
+        "id": 6,
+        "rating": 4.9,
+        "price": 555000,
+        "link": "https://kaspi.kz/shop/p/apple-ipad-pro-2022-11-wi-fi-11-djuim-8-gb-256-gb-seryi-107276752/?c=750000000",
+        "category": "tablets",
+        "likes": 0
+    },
+    {
+        "name": "iPad Air M1",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/hd3/h63/86369746092062.png?format=preview-large",
+        "description": [
+            "Мощный и легкий планшет с M1"
+        ],
+        "id": 7,
+        "rating": 4.8,
+        "price": 276389,
+        "link": "https://kaspi.kz/shop/p/apple-ipad-air-2022-10-9-wi-fi-10-9-djuim-8-gb-64-gb-seryi-104235453/?c=750000000",
+        "category": "tablets",
+        "likes": 0
+    },
+    {
+        "name": "iPad 2022 10.9",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h5d/h3c/64865317584926.jpg?format=preview-large",
+        "description": [
+            "Универсальный планшет для всей семьи"
+        ],
+        "id": 8,
+        "rating": 4.7,
+        "price": 195678,
+        "link": "https://kaspi.kz/shop/p/apple-ipad-2022-10-9-wi-fi-10-9-djuim-4-gb-64-gb-serebristyi-107264764/?c=750000000",
+        "category": "tablets",
+        "likes": 0
+    },
+    {
+        "name": "iPad Mini 6",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h1f/hd4/64068621139998.jpg?format=preview-large",
+        "description": [
+            "Компактный планшет с мощным процессором"
+        ],
+        "id": 9,
+        "rating": 4.6,
+        "price": 249356,
+        "link": "https://kaspi.kz/shop/p/apple-ipad-mini-2021-8-3-wi-fi-8-3-djuim-4-gb-64-gb-seryi-102301373/?c=750000000",
+        "category": "tablets",
+        "likes": 0
+    },
+    {
+        "name": "iPad Pro 11 M2",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h3c/h53/64896210403358.jpg?format=preview-large",
+        "description": [
+            "Профессиональный планшет с M2"
+        ],
+        "id": 10,
+        "rating": 4.8,
+        "price": 666000,
+        "link": "https://kaspi.kz/shop/p/apple-ipad-pro-2022-11-wi-fi-11-djuim-8-gb-256-gb-seryi-107276752/?c=750000000",
+        "category": "tablets",
+        "likes": 0
+    },
+    {
+        "name": "iPhone 15 Pro Max",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/ha3/hda/86319874048030.jpg?format=preview-large",
+        "description": [
+            "Флагманский смартфон с титановым корпусом"
+        ],
+        "id": 11,
+        "rating": 4.9,
+        "price": 619787,
+        "link": "https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=750000000",
+        "category": "phones",
+        "likes": 0
+    },
+    {
+        "name": "iPhone 15 Pro",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/hc6/h71/86302551736350.jpg?format=preview-large",
+        "description": [
+            "Профессиональный iPhone с A17 Pro"
+        ],
+        "id": 12,
+        "rating": 4.8,
+        "price": 578678,
+        "link": "https://kaspi.kz/shop/p/apple-iphone-15-pro-256gb-sinii-113138331/?c=750000000",
+        "category": "phones",
+        "likes": 0
+    },
+    {
+        "name": "iPhone 15",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h1d/hfc/86303745998878.jpg?format=preview-large",
+        "description": [
+            "Современный смартфон с Dynamic Island"
+        ],
+        "id": 13,
+        "rating": 4.7,
+        "price": 379098,
+        "link": "https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=750000000",
+        "category": "phones",
+        "likes": 0
+    },
+    {
+        "name": "iPhone 15 Plus",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h40/h18/86320810983454.jpg?format=preview-large",
+        "description": [
+            "Большой iPhone с отличной автономностью"
+        ],
+        "id": 14,
+        "rating": 4.6,
+        "price": 416765,
+        "link": "https://kaspi.kz/shop/p/apple-iphone-15-plus-128gb-chernyi-113138015/?c=750000000",
+        "category": "phones",
+        "likes": 0
+    },
+    {
+        "name": "iPhone 14",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/hb8/h19/86042949648414.png?format=preview-large",
+        "description": [
+            "Надежный смартфон с двойной камерой"
+        ],
+        "id": 15,
+        "rating": 4.7,
+        "price": 339990,
+        "link": "https://kaspi.kz/shop/p/apple-iphone-14-128gb-chernyi-106363023/?c=750000000",
+        "category": "phones",
+        "likes": 0
+    },
+    {
+        "name": "AirPods Pro 2",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/ha3/h07/84108189630494.jpg?format=preview-large",
+        "description": [
+            "Наушники с активным шумоподавлением"
+        ],
+        "id": 16,
+        "rating": 4.8,
+        "price": 113000,
+        "link": "https://kaspi.kz/shop/p/apple-airpods-pro-2-with-type-c-wireless-charging-belyi-113677582/?c=750000000",
+        "category": "accessories",
+        "likes": 0
+    },
+    {
+        "name": "Apple Watch Ultra 2",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/pdb/pd6/2456905.jpg?format=preview-large",
+        "description": [
+            "Прочные смарт-часы с титановым корпусом"
+        ],
+        "id": 17,
+        "rating": 4.9,
+        "price": 453987,
+        "link": "https://kaspi.kz/shop/p/apple-watch-ultra-series-2-2024-gps-cellular-49-mm-chernyi-128355600/?c=750000000",
+        "category": "accessories",
+        "likes": 0
+    },
+    {
+        "name": "Apple Watch Series 9",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/hd6/h66/83874218508318.png?format=preview-large",
+        "description": [
+            "Умные часы с двойным касанием"
+        ],
+        "id": 18,
+        "rating": 4.7,
+        "price": 192505,
+        "link": "https://kaspi.kz/shop/p/apple-watch-series-9-gps-s-m-45-mm-sinii-chernyi-113398151/?c=750000000",
+        "category": "accessories",
+        "likes": 0
+    },
+    {
+        "name": "AirPods Max",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/p68/p4c/3527586.png?format=preview-large",
+        "description": [
+            "Полноразмерные наушники премиум-класса"
+        ],
+        "id": 19,
+        "rating": 4.6,
+        "price": 292447,
+        "link": "https://kaspi.kz/shop/p/apple-airpods-max-2-cherno-sinii-128622804/?c=750000000",
+        "category": "accessories",
+        "likes": 0
+    },
+    {
+        "name": "Magic Keyboard",
+        "imageUrl": "https://resources.cdn-kaspi.kz/img/m/p/h7c/hef/86253406715934.jpg?format=preview-large",
+        "description": [
+            "Беспроводная клавиатура с цифровым блоком"
+        ],
+        "id": 20,
+        "rating": 4.5,
+        "price": 169998,
+        "link": "https://kaspi.kz/shop/p/apple-magic-keyboard-dlja-apple-ipad-pro-11-2024-11-djuim-chernyi-120291593/?c=750000000",
+        "category": "accessories",
+        "likes": 0
+    }
+]

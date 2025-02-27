@@ -1,0 +1,64 @@
+.welcome-message {
+    text-align: center; 
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.welcome-message h2 {
+    font-size: 32px; 
+    color: #b41f1f;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.welcome-message p {
+    font-size: 20px;
+    color: #996767;
+    text-align: center; 
+}
+.categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px 0;
+    padding: 0 120px;
+}
+
+.category-btn {
+    padding: 15px 50px;
+    border: 1px solid #dcd8d8;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.category-btn:hover {
+    background: #f5f5f5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.phones-btn.active {
+    background: #007AFF;
+    color: white;
+    border-color: #007AFF;
+}
+
+.laptops-btn.active {
+    background: #5856D6;
+    color: white;
+    border-color: #5856D6;
+}
+
+.tablets-btn.active {
+    background: #FF2D55;
+    color: white;
+    border-color: #FF2D55;
+}
+
+.accessories-btn.active {
+    background: #4CD964;
+    color: white;
+    border-color: #4CD964;
+}

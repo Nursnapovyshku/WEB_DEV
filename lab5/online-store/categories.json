@@ -1,0 +1,18 @@
+[
+    {
+        "id": "phones",
+        "name": "Phones"
+    },
+    {
+        "id": "laptops",
+        "name": "Laptops"
+    },
+    {
+        "id": "tablets",  
+        "name": "Tablets"
+    },
+    {
+        "id": "accessories",
+        "name": "Accessories"
+    }
+]
