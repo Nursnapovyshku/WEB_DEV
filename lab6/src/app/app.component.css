@@ -1,0 +1,36 @@
+nav {
+  background-color: rgb(104, 104, 157);
+  top: 0;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(227, 213, 241);
+}
+
+nav div {
+  display: flex;
+  gap: 20px;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+nav h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
