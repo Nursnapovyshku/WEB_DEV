@@ -1,0 +1,82 @@
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <form (ngSubmit)="onSubmit()" #vacancyForm="ngForm" style="display: flex; flex-direction: column; width: 100%; max-width: 500px; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+
+        <label for="VacancyName" style="margin-bottom: 10px;">
+            <span>Vacancy Name</span>
+            <input [(ngModel)]="newVacancy.name"
+                   name="name"
+                   id="VacancyName"
+                   placeholder="Enter Vacancy Name"
+                   type="text"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <label for="Description" style="margin-bottom: 10px;">
+            <span>Description</span>
+            <textarea [(ngModel)]="newVacancy.description"
+                      name="description"
+                      id="Description"
+                      placeholder="Enter description"
+                      required
+                      style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;"></textarea>
+        </label>
+
+        <label for="Salary" style="margin-bottom: 10px;">
+            <span>Salary</span>
+            <input [(ngModel)]="newVacancy.salary"
+                   name="salary"
+                   id="Salary"
+                   type="number"
+                   placeholder="Enter salary"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <label for="CompanyName" style="margin-bottom: 10px;">
+            <span>Company Name</span>
+            <input [(ngModel)]="newVacancy.company.name"
+                   name="companyName"
+                   id="CompanyName"
+                   placeholder="Enter Company Name"
+                   type="text"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <label for="CompanyDescription" style="margin-bottom: 10px;">
+            <span>Company Description</span>
+            <textarea [(ngModel)]="newVacancy.company.description"
+                      name="companyDescription"
+                      id="CompanyDescription"
+                      placeholder="Enter Company Description"
+                      style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;"></textarea>
+        </label>
+
+        <label for="CompanyCity" style="margin-bottom: 10px;">
+            <span>Company City</span>
+            <input [(ngModel)]="newVacancy.company.city"
+                   name="companyCity"
+                   id="CompanyCity"
+                   placeholder="Enter Company City"
+                   type="text"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <label for="CompanyAddress" style="margin-bottom: 20px;">
+            <span>Company Address</span>
+            <textarea [(ngModel)]="newVacancy.company.address"
+                      name="companyAddress"
+                      id="CompanyAddress"
+                      placeholder="Enter Company Address"
+                      style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;"></textarea>
+        </label>
+
+        <button type="submit"
+                [disabled]="vacancyForm.invalid"
+                style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; width: 100%;">
+            Create Vacancy
+        </button>
+    </form>
+</div>

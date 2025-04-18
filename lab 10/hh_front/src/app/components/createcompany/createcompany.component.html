@@ -1,0 +1,53 @@
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <form (ngSubmit)="createCompany()" style="display: flex; flex-direction: column; width: 100%; max-width: 500px; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+
+        <label for="Name" style="margin-bottom: 10px;">
+            <span>Name</span>
+            <input [(ngModel)]="company.name"
+                   name="Title"
+                   id="name"
+                   placeholder="Company name"
+                   type="text"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <label for="City" style="margin-bottom: 10px;">
+            <span>City</span>
+            <input [(ngModel)]="company.city"
+                   name="Description"
+                   id="city"
+                   placeholder="City"
+                   type="text"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <label for="Description" style="margin-bottom: 10px;">
+            <span>Description</span>
+            <input [(ngModel)]="company.description"
+                   name="Cost"
+                   id="description"
+                   placeholder="Write description"
+                   type="text"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <label for="Address" style="margin-bottom: 20px;">
+            <span>Address</span>
+            <input [(ngModel)]="company.address"
+                   name="Cost"
+                   id="address"
+                   placeholder="Write address"
+                   type="text"
+                   required
+                   style="padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%;" />
+        </label>
+
+        <button type="submit"
+                style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; width: 100%;">
+            SUBMIT
+        </button>
+    </form>
+</div>

@@ -2,28 +2,28 @@ from api.models import Company, Vacancy
 
 companies = [
     Company(
-        name="Almavalley",
-        description="A company that generates videos for students",
+        name="NURSULTANOS",
+        description="Technical company",
         city="Almaty",
-        address="KBTU, 133 room"
+        address="Almaty,Kaskelen,Zhubanov street 1 "
     ),
     Company(
-        name="ЦМТ",
-        description="A company that takes photos.",
+        name="NUS",
+        description="Patent registration company.",
         city="Almaty",
-        address="KBTU, 135 room"
+        address="Almaty, zolotoy kvadrat"
     ),
     Company(
-        name="Borealis-lab",
-        description="Labaratory that creates new tech",
+        name="SouthA",
+        description="South African company",
         city="Almaty",
-        address="KBTU, 270 room"
+        address="Almaty,Zharokova street 37/3"
     ),
     Company(
-        name="Startup Incubator",
-        description="Create your own startup, with these techmiques",
+        name="SoYuridiks",
+        description="trademark registration company",
         city="Almaty",
-        address="KBTU"
+        address="Almaty,Baitursunuly street 15"
     ),
 ]
 
@@ -33,8 +33,8 @@ for company in companies:
 
 vacancies = [
     Vacancy(
-        name="Content creator",
-        description="A person who makes interesting presentations and motion design",
+        name="Yurist",
+        description="A person who register trade marks",
         salary=200000,
         company=companies[0]
     ),
@@ -58,12 +58,6 @@ vacancies = [
         company=companies[1]
     ),
     
-    Vacancy(
-        name="lab-worker",
-        description="A person who can work woth robo-techniques",
-        salary=135000,
-        company=companies[2]
-    ),
     Vacancy(
         name="Director",
         description="Who can control people",

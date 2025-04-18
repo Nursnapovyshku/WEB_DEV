@@ -46,7 +46,7 @@ def vacancy_detail(request, id):
     return Response(serializer.data)
 
 @api_view(['GET'])
-def top_ten_vacancies(request):
-    vacancies = Vacancy.objects.order_by('-salary')[:10]
+def top_five_vacancies(request):
+    vacancies = Vacancy.objects.order_by('-salary')[:5]
     serializer = VacancySerializer(vacancies, many=True)
     return Response(serializer.data)
